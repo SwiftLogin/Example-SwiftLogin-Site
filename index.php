@@ -115,7 +115,7 @@ if(isset($_GET['logout']))
 		and you're ready to roll! You can even add custom URI parameters to the callback url and they 
 		will be preserved.</p>
 		
-		<pre><b>$_GET Data:</b><br /><?php print htmlspecialchars(print_r($_GET,TRUE), ENT_QUOTES, 'UTF-8); ?></pre>
+		<pre><b>$_GET Data:</b><br /><?php print htmlspecialchars(print_r($_GET,TRUE), ENT_QUOTES, 'UTF-8'); ?></pre>
 	</div>
 </div>
 </body>
