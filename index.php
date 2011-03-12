@@ -113,7 +113,7 @@ if(isset($_GET['logout']))
 		<p>This site is an example of how easy it is to implement a login using PHP and SwiftLogin.com.
 		All you need is some simple code to fetch a reponse from <a href="http://swiftlogin.com">SwiftLogin.com</a> 
 		and you're ready to roll! You can even add custom URI parameters to the callback url and they 
-		will be preserved.</p>
+		will be preserved. <a href="https://github.com/SwiftLogin/Example-SwiftLogin-Site/">Download the source at github.</a></p>
 		
 		<pre><b>$_GET Data:</b><br /><?php print htmlspecialchars(print_r($_GET,TRUE), ENT_QUOTES, 'UTF-8'); ?></pre>
 	</div>
