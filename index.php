@@ -33,7 +33,7 @@ if(!empty($_GET['key']) AND is_string($_GET['key']))
 		//print var_dump($response);
 		
 		// Valid response object (with a transmission timestamp less than a minute ago)
-		if($response AND empty($response->error) AND $response->timestamp < (time()+60))
+		if($response AND empty($response->error)) // AND $response->domain == 'your.site.tld') <-- Login key is *only* for this domain!
 		{
 			// Log user in by saving user information
 			$_SESSION['email'] = $response->email;
